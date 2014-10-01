@@ -10,7 +10,7 @@ After you have those, run this command to save your AWS creds locally (to the fo
 
     docker run --rm -t -i -v $(pwd)/.awscreds:/root/.aws alexturek/aws-cli-docker configure
 
-Enter your key ID and secret (and any other information) at the prompts. These are now saved at ./creds/
+Enter your key ID and secret (and any other information) at the prompts. These are now saved at `./creds/`
 
 ## Use the AWS CLI
 
@@ -18,7 +18,7 @@ From the same directory:
 
     docker run --rm -t -i -v $(pwd)/.awscreds:/root/.aws alexturek/aws-cli-docker my aws commands
 
-If you want to be able to run this from any directory on your machine, replace $(pwd) in both commands with /some/absolute/path
+If you want to be able to run this from any directory on your machine, replace `$(pwd)` in both commands with `/some/absolute/path`
 
 
 ## Examples
