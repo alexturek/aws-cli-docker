@@ -4,7 +4,7 @@ If you're on e.g. CoreOS and you don't want to have to install Python or other l
 
 ## Getting set up
 
-See [http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-set-up.html](Amazon's help docs) on how to get your access key and credentials
+See [Amazon's help docs](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-set-up.html) on how to get your access key and credentials
 
 After you have those, run this command to save your AWS creds locally (to the folder `/my/current/directory/.awscreds`)
 
@@ -27,4 +27,4 @@ See objects in an S3 bucket:
 
     docker run --rm -t -i -v $(pwd)/.awscreds:/root/.aws alexturek/aws-cli-docker s3 ls s3://my-s3-bucket
 
-For more use see [http://docs.aws.amazon.com/cli/latest/reference/](AWS's documentation)
+For more use see [AWS's documentation](http://docs.aws.amazon.com/cli/latest/reference/)
